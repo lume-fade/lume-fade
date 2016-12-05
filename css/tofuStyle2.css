@@ -1,0 +1,117 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+body {
+    background-image: url('../img/lumebg.png');
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.navbar-header #logo {
+    float: left;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+#switchBg {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#lumeTitle {
+    width: 65%;
+}
+
+#titleImg {
+    position: relative;
+    z-index: 100;
+    margin-bottom:-50px;
+}
+
+#mainContainer {
+    background-color: #f6f5f6;
+    opacity: .85;
+    box-shadow: 10px 10px 2px black;
+    width: 65%;
+    margin-bottom: 15%;
+}
+
+
+.home p{
+    padding: 10px 25px 10px 25px;
+    color: black;
+}
+
+.home h3, #about, #faq {
+    padding: 0px 15px 0px 15px;
+    font-weight: bold;
+    color:black;
+}
+
+.home #title {
+    color: green;
+}
+
+#introPic {
+    float:left;
+    width:40%;
+}
+
+
+.footer {
+    bottom: 0px;
+    margin-top: 100px;
+    position:absolute;
+    display: block;
+    height: 158px;
+    width: 100%;
+    background-image: url('../img/shadow.png');
+    background-clip: content-box;
+}
+
+
+.footer text {
+    color: lightgray;
+    bottom: 1px;
+    left: 5px;
+    position: absolute;
+    display: block;
+    font-size: 100%;
+}
+
+#intro {
+  padding-bottom: 20%;
+}
+
+/*CSS for contact page*/
+#mainContainer #team {
+    list-style: none;
+    color:black;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #aboutContainer {
+    width: 80%;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 600px) {
+  #intro {
+    padding-bottom: 0%;
+  }
+}
