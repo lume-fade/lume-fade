@@ -94,6 +94,10 @@ body {
   padding-bottom: 20%;
 }
 
+h4 {
+    padding-left:2%;
+}
+
 /*CSS for contact page*/
 #mainContainer #team {
     list-style: none;
