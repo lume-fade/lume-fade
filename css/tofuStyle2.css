@@ -8,7 +8,7 @@ body {
     background-image: url('../img/lumebg.png');
     background-size: cover;
     background-position: center center;
-    
+
 }
 
 .navbar-header #logo {
@@ -100,6 +100,11 @@ body {
     color:black;
 }
 
+video {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
 
 @media only screen and (max-width: 600px) {
     #aboutContainer {
